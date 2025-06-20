@@ -1,38 +1,14 @@
 galaxy_info:
-  author: Preethi 
-<<<<<<< HEAD
-  description: Install apache and deploy the static application
-  company: XYZ
-=======
-  description: install apache web server and deploy static application on Linux VM
-  company: ABC organization
->>>>>>> 3a30d20 (Added role metadata for Ansible Galaxy)
-
-  # If the issue tracker for your role is not on github, uncomment the
-  # next line and provide a value
-  # issue_tracker_url: http://example.com/issue/tracker
-
-  # Choose a valid license ID from https://spdx.org - some suggested licenses:
-  # - BSD-3-Clause (default)
-  # - MIT
-  # - GPL-2.0-or-later
-  # - GPL-3.0-only
-  # - Apache-2.0
-  # - CC-BY-4.0
-<<<<<<< HEAD
-  license: license MIT
-=======
+  role_name: staticapp
+  author: Preethi Suresh
+  description: Ansible role to deploy a static application
   license: MIT
->>>>>>> 3a30d20 (Added role metadata for Ansible Galaxy)
-
-  min_ansible_version: 2.1
+  min_ansible_version: 2.9
   platforms:
     - name: EL
       versions:
         - 7
         - 8
-  role_name: staticapp
-
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
 
